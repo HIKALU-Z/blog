@@ -1,0 +1,27 @@
+---
+import { getCollection } from "astro:content";
+
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+import ContactCTA from "../components/ContactCTA.astro";
+import PortfolioPreview from "../components/PortfolioPreview.astro";
+import Hero from "../components/Hero.astro";
+---
+
+<BaseLayout
+  title="The Music I Loved | Hikalu"
+  description="Known about  Hikalu's Music"
+>
+  <div class="stack gap-20">
+    <main class="wrapper stack gap-8">
+      <Hero
+        title="My Music"
+        tagline="See my most liked music below to get an idea of my character."
+        align="start"
+      />
+
+       optio et. Id esse corrupti exercitationem labore rerum repellat praesentium
+      sint temporibus similique doloremque commodi provident dolorem, ab molestias.
+    </main>
+  </div>
+</BaseLayout>
